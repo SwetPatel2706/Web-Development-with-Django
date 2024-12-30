@@ -1,0 +1,19 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Django Project</title>
+</head>
+<body>
+    {% include 'header.html' %}
+    {% include 'menu.html' %}
+    <hr>
+    <h1>Welcome to myapp Django Project</h1>
+</body>
+</html>
+
+<br>
+<a href="/parcel">Order Parcel</a>
